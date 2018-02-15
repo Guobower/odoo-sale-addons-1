@@ -14,6 +14,7 @@
     ],
     'data': [
         'data/res_config_settings.xml',
+        'views/discount_rate_views.xml',
     ],
     'installable': True,
     'auto_install': False,

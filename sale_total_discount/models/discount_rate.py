@@ -11,6 +11,8 @@ class DiscountRate(models.Model):
     name = fields.Char(required=True)
     line_ids = fields.One2many(
         'discount.rate.line', 'discount_rate_id', 'Items')
+    company_id = fields.Many2one('res.company')
+    active = fields.Boolean('Active', default=True)
 
 
 class DiscountRateLine(models.Model):
