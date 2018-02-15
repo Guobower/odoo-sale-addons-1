@@ -17,6 +17,7 @@
         'data/res_config_settings.xml',
         'views/discount_rate_views.xml',
         'views/res_partner_views.xml',
+        'views/sale_views.xml',
     ],
     'installable': True,
     'auto_install': False,

@@ -4,3 +4,4 @@
 
 from . import discount_rate
 from . import res_partner
+from . import sale_order
