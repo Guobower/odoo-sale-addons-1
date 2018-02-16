@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <record id="action_discount_rate" model="ir.actions.act_window">
+    <field name="name">Discount Rates</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">discount.rate</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">
+        Create a discount rate.
+      </p>
+    </field>
+  </record>
+
+  <record id="view_discount_rate_tree" model="ir.ui.view">
+    <field name="name">discount.rate.tree</field>
+    <field name="model">discount.rate</field>
+    <field name="arch" type="xml">
+      <tree string="Discount Rates">
+        <field name="name" />
+        <field name="company_id" groups="base.group_multi_company" />
+      </tree>
+    </field>
+  </record>
+
+  <record id="view_discount_rate_form" model="ir.ui.view">
+    <field name="name">discount.rate.form</field>
+    <field name="model">discount.rate</field>
+    <field name="arch" type="xml">
+      <form string="Discount Rate">
+        <sheet>
+          <div class="oe_button_box" name="button_box">
+            <button name="toggle_active" type="object"
+                    class="oe_stat_button" icon="fa-archive" groups="sales_team.group_sale_manager">
+              <field name="active" widget="boolean_button"
+                     options='{"terminology": "archive"}'/>
+            </button>
+          </div>
+          <div class="oe_title">
+            <h1><field name="name" placeholder="e.g. Discount 40%"/></h1>
+          </div>
+          <group>
+            <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}"/>
+          </group>
+          <div>
+            <separator string="Discount Rate Items"/>
+            <field name="line_ids" nolabel="1">
+              <tree string="Discount Rate Items" editable="inline">
+                <field name="min_qty"/>
+                <field name="discount_type" />
+                <field name="percentage" />
+                <field name="amount" />
+              </tree>
+            </field>
+          </div>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <menuitem
+      id="menu_discount_rate"
+      name="Discount Rates"
+      parent="sale.product_menu_catalog"
+      action="action_discount_rate"
+      groups="product.group_sale_pricelist" />
+
+</odoo>
