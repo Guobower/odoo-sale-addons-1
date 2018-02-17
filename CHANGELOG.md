@@ -5,3 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [11.0.1.0.0] - 2018-02-15
+### added
+- sale_total_discount: Discounts over total of products in sales orders
