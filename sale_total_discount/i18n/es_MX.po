@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_total_discount
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20171030\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-18 00:10+0000\n"
+"PO-Revision-Date: 2018-02-17 20:27-0400\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_amount
+msgid "Amount"
+msgstr "Importe"
+
+#. module: sale_total_discount
+#: selection:discount.rate.line,discount_type:0
+msgid "Amount Fixed"
+msgstr "Importe Fijo"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: sale_total_discount
+#: model:ir.model,name:sale_total_discount.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: sale_total_discount
+#: model:ir.actions.act_window,help:sale_total_discount.action_discount_rate
+msgid "Create a discount rate."
+msgstr "Registrar una tarifa de descuentos"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_create_uid
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_create_date
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_discount_rate_id
+#: model:ir.model.fields,field_description:sale_total_discount.field_res_partner_discount_rate_id
+#: model:ir.model.fields,field_description:sale_total_discount.field_res_users_discount_rate_id
+#: model:ir.model.fields,field_description:sale_total_discount.field_sale_order_discount_rate_id
+#: model:ir.ui.view,arch_db:sale_total_discount.view_discount_rate_form
+msgid "Discount Rate"
+msgstr "Tarifa de Descuento"
+
+#. module: sale_total_discount
+#: model:ir.ui.view,arch_db:sale_total_discount.view_discount_rate_form
+msgid "Discount Rate Items"
+msgstr "Items de la Tarifa"
+
+#. module: sale_total_discount
+#: model:ir.actions.act_window,name:sale_total_discount.action_discount_rate
+#: model:ir.ui.menu,name:sale_total_discount.menu_discount_rate
+#: model:ir.ui.view,arch_db:sale_total_discount.view_discount_rate_tree
+msgid "Discount Rates"
+msgstr "Tarifas de Descuento"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_discount_type
+msgid "Discount Type"
+msgstr "Tipo de Descuento"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_display_name
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_id
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_ids
+msgid "Items"
+msgstr "Items"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate___last_update
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_write_uid
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_write_date
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_min_qty
+msgid "Minimum Quantity"
+msgstr "Cantidad mínima"
+
+#. module: sale_total_discount
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: sale_total_discount
+#: selection:discount.rate.line,discount_type:0
+#: model:ir.model.fields,field_description:sale_total_discount.field_discount_rate_line_percentage
+msgid "Percentage"
+msgstr "Porcentaje"
+
+#. module: sale_total_discount
+#: model:ir.model,name:sale_total_discount.model_sale_order
+msgid "Quotation"
+msgstr "Presupuesto"
+
+#. module: sale_total_discount
+#: model:ir.model,name:sale_total_discount.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Línea de pedido de venta"
+
+#. module: sale_total_discount
+#: model:ir.model,name:sale_total_discount.model_discount_rate
+msgid "discount.rate"
+msgstr "discount.rate"
+
+#. module: sale_total_discount
+#: model:ir.model,name:sale_total_discount.model_discount_rate_line
+msgid "discount.rate.line"
+msgstr "discount.rate.line"
+
+#. module: sale_total_discount
+#: model:ir.ui.view,arch_db:sale_total_discount.view_discount_rate_form
+msgid "e.g. Discount 40%"
+msgstr "e.g. Descuento 40%"
