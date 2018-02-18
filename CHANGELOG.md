@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [11.0.1.0.1] - 2018-02-17
+### added
+- i18n es_MX
+
 ## [11.0.1.0.0] - 2018-02-15
 ### added
 - sale_total_discount: Discounts over total of products in sales orders
