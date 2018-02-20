@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [11.0.1.0.2] - 2018-02-20
+### added
+- Adds access rights over discount rates.
+
 ## [11.0.1.0.1] - 2018-02-17
 ### added
 - i18n es_MX
