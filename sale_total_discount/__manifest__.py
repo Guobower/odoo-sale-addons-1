@@ -4,7 +4,7 @@
 
 {
     'name': 'Discounts over total of products in sales orders',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.2',
     'category': 'Sale',
     'author': 'Uakami',
     'website': "https://uakami.com/",
@@ -14,6 +14,7 @@
         'sales_team',
     ],
     'data': [
+        'security/ir.model.access.csv',
         'data/res_config_settings.xml',
         'views/discount_rate_views.xml',
         'views/res_partner_views.xml',
