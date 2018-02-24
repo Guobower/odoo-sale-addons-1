@@ -14,6 +14,7 @@
     ],
     'data': [
         'views/sale_views.xml',
+        'report/sale_report_templates.xml',
     ],
     'installable': True,
     'auto_install': False,
