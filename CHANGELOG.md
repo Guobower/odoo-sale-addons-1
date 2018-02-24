@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [11.0.1.0.4] - 2018-02-24
+### added
+- sale_show_total_discount: Discount total in sale report.
+
 ## [11.0.1.0.3] - 2018-02-24
 ### changed
 - Moves field "Discount Total" before field amount untaxed in form view
