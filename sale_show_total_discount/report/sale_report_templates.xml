@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+  <template inherit_id="sale.report_saleorder_document" id="report_saleorder_document_discount">
+
+    <xpath expr="//div[@name='total']/div/table/tr" position="before">
+
+      <tr class="border-black" style="border-bottom:1px solid #dddddd;">
+        <td><strong>Total Discount</strong></td>
+        <td class="text-right">
+          <span t-field="doc.total_discount"
+                t-options='{"widget": "monetary", "display_currency": doc.pricelist_id.currency_id}'/>
+        </td>
+      </tr>
+
+    </xpath>
+
+  </template>
+
+</odoo>
