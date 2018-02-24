@@ -4,7 +4,7 @@
 
 {
     'name': 'Show Total Discount in Sales Orders',
-    'version': '11.0.1.0.1',
+    'version': '11.0.1.0.2',
     'category': 'Sale',
     'author': 'Uakami',
     'website': "https://uakami.com/",
@@ -14,6 +14,7 @@
     ],
     'data': [
         'views/sale_views.xml',
+        'report/sale_report_templates.xml',
     ],
     'installable': True,
     'auto_install': False,
