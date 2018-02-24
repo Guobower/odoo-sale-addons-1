@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0+e-20171030\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-18 00:29+0000\n"
-"PO-Revision-Date: 2018-02-17 20:30-0400\n"
+"POT-Creation-Date: 2018-02-24 15:51+0000\n"
+"PO-Revision-Date: 2018-02-24 11:52-0400\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Plural-Forms: \n"
 "Language: es_MX\n"
 "X-Generator: Poedit 1.8.11\n"
+
+#. module: sale_show_total_discount
+#: model:ir.ui.view,arch_db:sale_show_total_discount.report_saleorder_document_discount
+msgid "<strong>Total Discount</strong>"
+msgstr "<strong>Descuento Total</strong>"
 
 #. module: sale_show_total_discount
 #: model:ir.model,name:sale_show_total_discount.model_sale_order
