@@ -4,7 +4,7 @@
 
 {
     'name': 'Show Total Discount in Sales Orders',
-    'version': '11.0.1.0.0',
+    'version': '11.0.1.0.1',
     'category': 'Sale',
     'author': 'Uakami',
     'website': "https://uakami.com/",
